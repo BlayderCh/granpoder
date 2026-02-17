@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información del Viaje – Gran Poder</title>
+
+  <!-- FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #3b0000, #7a0000, #b8860b);
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(122,0,0,0.8)),
+                  url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      border-bottom: 6px solid gold;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 56px;
+      margin-bottom: 15px;
+      letter-spacing: 3px;
+      text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 850px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 35px;
+      margin-bottom: 35px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 2px solid gold;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      color: gold;
+      margin-bottom: 20px;
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+
+    .item {
+      margin: 12px 0;
+      padding-left: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 40px;
+      background: gold;
+      color: #7a0000;
+      text-decoration: none;
+      border-radius: 40px;
+      font-size: 16px;
+      font-weight: 700;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: white;
+      color: #7a0000;
+      transform: translateY(-4px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      background: #2b0000;
+      border-top: 4px solid gold;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 38px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      .card {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Festividad del Señor Jesús del Gran Poder</h1>
+    <p>Vive la majestuosidad, la fe y el esplendor cultural de una de las celebraciones más grandes de Bolivia en la ciudad de La Paz.</p>
+  </header>
+
+  <div class="container">
+
+    <!-- PROGRAMA -->
+    <div class="card">
+      <h2>🎭 Programa del Evento</h2>
+      <div class="item">06:00 – Desayuno en el hotel</div>
+      <div class="item">07:00 – Traslado al punto estratégico</div>
+      <div class="item">08:00 – Inicio de la Gran Entrada</div>
+      <div class="item">12:00 – Almuerzo tradicional paceño</div>
+      <div class="item">14:00 – Continuación del desfile folklórico</div>
+      <div class="item">18:00 – Presentación de fraternidades destacadas</div>
+      <div class="item">21:00 – Cena y descanso</div>
+    </div>
+
+    <!-- SEGURIDAD -->
+    <div class="card">
+      <h2>🛡 Medidas de Seguridad</h2>
+      <div class="item">✔ Uso obligatorio de credencial identificativa</div>
+      <div class="item">✔ Permanecer en zonas asignadas por el guía</div>
+      <div class="item">✔ Punto de encuentro fijo en caso de extravío</div>
+      <div class="item">✔ Hidratación constante</div>
+      <div class="item">✔ Supervisión permanente del coordinador del grupo</div>
+      <div class="item">✔ Botiquín y asistencia médica disponible</div>
+    </div>
+
+    <!-- INCLUYE -->
+    <div class="card">
+      <h2>✨ ¿Qué Incluye?</h2>
+      <div class="item">✔ Transporte interno</div>
+      <div class="item">✔ Guía turístico especializado</div>
+      <div class="item">✔ Almuerzo típico</div>
+      <div class="item">✔ Asientos reservados en zona estratégica</div>
+      <div class="item">✔ Kit de bienvenida</div>
+    </div>
+
+    <!-- RECOMENDACIONES -->
+    <div class="card">
+      <h2>⚠️ Recomendaciones</h2>
+      <div class="item">✔ Llevar protector solar</div>
+      <div class="item">✔ Usar ropa cómoda</div>
+      <div class="item">✔ Llevar efectivo para compras artesanales</div>
+      <div class="item">✔ Celular cargado</div>
+      <div class="item">✔ Respetar tradiciones y fraternidades</div>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Volver a la página principal</a>
+
+  </div>
+
+  <footer>
+    © Turismo Bolivia – Experiencia Gran Poder
+  </footer>
+
+</body>
+</html>
